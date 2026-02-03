@@ -14,7 +14,7 @@ if collision_rectangle(x+32, y+4, x+33, y+28, player, true, true) > 0 {
         player.gravity = 0;
         player.vspeed = 2;
         if keyboard_check_pressed(world.rightKey) {
-            sound_play(sndJump);
+            audio_play(sndJump);
             if keyboard_check(world.jumpKey) {player.vspeed = -8;player.Llv = 1;player.hspeed = 15;}
             else {player.vspeed = -4;player.hspeed = 6;player.frozen = 2;}
         }

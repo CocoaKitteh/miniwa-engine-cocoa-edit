@@ -13,7 +13,7 @@ action_id=603
 applies_to=self
 */
 if other.active and speed == 0 {
-    if sprite_index == sprCherry {sound_play(sndCherry)}
+    if sprite_index == sprCherry {audio_play(sndCherry)}
     vspeed = vsp;
     hspeed = hsp;
     with(other) instance_destroy();

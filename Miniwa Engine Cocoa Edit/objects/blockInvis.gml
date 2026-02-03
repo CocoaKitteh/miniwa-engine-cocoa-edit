@@ -6,7 +6,7 @@ applies_to=self
 */
 if (!visible) {
     if (distance_to_object(player)<2) {
-        sound_play(sndBlockChange);
+        audio_play(sndBlockChange);
         visible=1;
     }
 }

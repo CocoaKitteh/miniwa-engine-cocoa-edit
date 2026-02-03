@@ -13,7 +13,7 @@ applies_to=self
 */
 instance_create(x,y,objBomb)
 repeat(3){
-sound_play(sndShoot)
+audio_play(sndShoot)
 }
 alarm[0] = 50
 #define Step_0
@@ -44,4 +44,4 @@ applies_to=self
 */
 with(other)instance_destroy();
 objHPbar.hp -= 1;
-sound_play(sndBossHit)
+audio_play(sndBossHit)

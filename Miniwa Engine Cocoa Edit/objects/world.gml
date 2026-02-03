@@ -125,7 +125,7 @@ applies_to=self
 */
 //Ctrl+M - ‰¹‚Ì§Œä
 if(keyboard_check(vk_control) == true){
-  sound_stop_all();
+  audio_all_stop();
   global.music = !global.music;
 }
 #define KeyPress_82
@@ -135,7 +135,7 @@ action_id=603
 applies_to=self
 */
 if(room != rInit && room != rMenu && room != rTitle){
-  sound_stop_all();
+  audio_all_stop();
   loadGame();
 }
 #define KeyPress_113
@@ -147,8 +147,10 @@ applies_to=self
 ss_StopSound(curMusic)
 ss_StopSound(Sgameover)
 file_delete("temp");
-sound_stop_all();
-game_restart();
+audio_all_stop();
+filePlaying=-100
+with player instance_destroy()
+room_goto(rInit)
 #define KeyPress_115
 /*"/*'/**//* YYD ACTION
 lib_id=1

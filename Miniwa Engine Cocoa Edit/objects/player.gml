@@ -161,7 +161,7 @@ if global.godmode image_alpha=0.5 else image_alpha=1
 if global.infjump {djump=true;image_blend=c_blue} else image_blend=c_white
 
 if global.debug {
-    if keyboard_check_pressed(ord("G")) {global.godmode=!global.godmode;sound_play(sndBlockChange)}
+    if keyboard_check_pressed(ord("G")) {global.godmode=!global.godmode;audio_play(sndBlockChange)}
     if keyboard_check_pressed(ord("I")) global.infjump=!global.infjump
     if keyboard_check(vk_tab) {x=mouse_x;y=mouse_y}
     if keyboard_check_pressed(vk_enter) room_goto_next()

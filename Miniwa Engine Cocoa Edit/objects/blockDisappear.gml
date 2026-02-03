@@ -5,6 +5,6 @@ action_id=603
 applies_to=self
 */
 if (distance_to_object(player)<2) {
-    sound_play(sndBlockChange);
+    audio_play(sndBlockChange);
     instance_destroy();
 }
