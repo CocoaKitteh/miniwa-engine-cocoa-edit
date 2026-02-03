@@ -1,0 +1,22 @@
++tile
+	|tile01
+	|tile02
+	|tile03
+	|bacJumpThrough
++background
+	+s
+		+s
+			+s
+				+s
+					+h
+						+i
+							+r
+								+a
+									+n
+										+a
+											+i
+												|background54
+	|backgroundMiniwa
+	|backgroundMegaman4
+	|backgroundTree
+	|backgroundStage01

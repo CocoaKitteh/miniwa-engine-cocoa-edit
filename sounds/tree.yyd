@@ -1,0 +1,10 @@
++sfx
+	|sndBlockChange
+	|sndBossHit
+	|sndCherry
+	|sndDeath
+	|sndDJump
+	|sndJump
+	|sndShoot
+	|sndLvyJump
+	|sndSpikeTrap

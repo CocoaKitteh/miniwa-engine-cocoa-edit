@@ -1,0 +1,41 @@
++controls
+	|defControls
+	|loadControls
+	|saveControls
+|musicFuntions
+|loadGame
+|saveGame
+|outsideRoom
+|killPlayer
+|playerJump
+|playerShoot
+|playerVJump
+|loadDeathTime
+|saveDeathTime
+|tempExe
+|saveExe
+|load_music
++ssound
+	|ss_Init
+	|ss_Unload
+	|ss_LoadSound
+	|ss_PlaySound
+	|ss_LoopSound
+	|ss_StopSound
+	|ss_SetSoundFreq
+	|ss_SetSoundPan
+	|ss_SetSoundVol
+	|ss_FreeSound
+	|ss_IsSoundPlaying
+	|ss_IsSoundLooping
+	|ss_GetSoundVol
+	|ss_GetSoundPan
+	|ss_GetSoundFreq
+	|ss_GetSoundPosition
+	|ss_GetSoundLength
+	|ss_SetSoundPosition
+	|ss_GetSoundBytesPerSecond
+	|ss_IsHandleValid
+	|ss_IsSoundPaused
+	|ss_PauseSound
+	|ss_ResumeSound

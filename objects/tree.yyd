@@ -1,0 +1,77 @@
++blocks
+	|block
+	|blockDisappear
+	|blockInvis
+	|blockMove
++option 
+	|Ladder
+	|jumpItem
+	|movingPlatform
+	|platform
+	|water
+	|LLvyR
+	|LvyR
+	|LLvyL
+	|LvyL
+	|SlipBlock
+	|PlayerKillerBreak
++generic threats
+	|deliciousFruit
+	|spikeDown
+	|spikeLeft
+	|spikeRight
+	|spikeUp
+	|SpikeLLeft
+	|SpikeLRight
+	|spikeLUp
+	|spikeLDown
++savePoint
+	|savePointMedium
+	|savePoint
+	|savePointHard
++item
+	+getitem
+		|getitem01
+		|getitem02
+		|getitem03
+	+showitem
+		|showitem01
+		|showitem02
+		|showitem03
+	+itemblock
+		|itemblock01
+		|itemblock02
+		|itemblock03
++StageSelectSpike
+	|PlayerkillerSS
+	|spikeLeftSS
+	|spikeRightSS
+	|spikeUpSS
+	|spikeDownSS
+	|CherrySS
++player_etc
+	|init
+	|world
+	|bloodEmitter
+	|titleButton
+	|menuSelect
+	|playerStart
+	|player
+	|bow
+	|blood
+	|bullet
+	|camera
+	|GAMEOVER
+	|playerKiller
++warp
+	|objWarp
++boss
+	|objHPbar
+	|objBomb
+	|objBoss
++Trigger
+	|tActiver
+	|tTriggerFieldH
+	|tTriggerFieldSq
+	|tTriggerFieldV
+	|trigger

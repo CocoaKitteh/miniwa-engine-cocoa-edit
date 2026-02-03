@@ -1,0 +1,7 @@
+sprite=sprTriggerFeildV
+visible=0
+solid=0
+persistent=0
+depth=3
+parent=tTriggerFieldH
+mask=
