@@ -1,21 +1,33 @@
-#define Create_0
-/*"/*'/**//* YYD ACTION
-lib_id=1
-action_id=603
-applies_to=self
-*/
-active = false;
 #define Collision_player
 /*"/*'/**//* YYD ACTION
 lib_id=1
 action_id=603
 applies_to=self
 */
-active = true;
-#define Collision_tTriggerFieldH
+if !active {
+    with all {
+        if trg==other.trg and speed==0 {
+            switch sprite_index {
+                case sprCherry:
+                    audio_play_single(sndCherry)
+                    break
+                case sprSpikeUp:
+                case sprSpikeDown:
+                case sprSpikeLeft:
+                case sprSpikeRight:
+                    audio_play_single(sndSpikeTrap)
+                    break
+            }
+            vspeed=vsp
+            hspeed=hsp
+        }
+    }
+    active=true
+}
+#define Other_4
 /*"/*'/**//* YYD ACTION
 lib_id=1
 action_id=603
 applies_to=self
 */
-if active {other.active = true;}
+//field trg: number

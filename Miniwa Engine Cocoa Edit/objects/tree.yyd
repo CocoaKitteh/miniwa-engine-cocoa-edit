@@ -70,8 +70,4 @@
 	|objBomb
 	|objBoss
 +Trigger
-	|tActiver
-	|tTriggerFieldH
-	|tTriggerFieldSq
-	|tTriggerFieldV
 	|trigger
