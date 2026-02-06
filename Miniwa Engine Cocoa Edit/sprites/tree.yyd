@@ -61,7 +61,4 @@
 		|sprBoss1
 +triggers
 	|sprTrigger
-	|sprLaunch
-	|sprTriggerFieldH
-	|sprTriggerFieldSq
-	|sprTriggerFeildV
+	|sprTriggerStopper

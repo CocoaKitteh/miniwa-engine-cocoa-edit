@@ -14,7 +14,7 @@ global.death[3] = 0;
 global.time[1] = 0;
 global.time[2] = 0;
 global.time[3] = 0;
-global.debug=true
+engine_settings()
 loadDeathTime();
 ss_Init();
 load_music()
@@ -76,9 +76,9 @@ action_id=603
 applies_to=self
 */
 //ƒ‹[ƒ€‚Ì‚P•bŠÔ‚ÌƒXƒeƒbƒv”‚ðÝ’è
-room_speed=50;
+room_speed=global.game_speed;
 //ƒ‹[ƒ€ƒLƒƒƒvƒVƒ‡ƒ“‚ÌÝ’èiã‚Éo‚Ä‚é•¶Žš‚Ëj
-room_caption="I wanna be the Engine MINIWA Edition";
+room_caption=global.caption;
 if(room != rInit && room != rMenu && room != rSelectStage && room != rTitle){
   if(global.difficulty == 0){
     room_caption += " Medium";
@@ -146,8 +146,8 @@ applies_to=self
 */
 ss_StopSound(curMusic)
 ss_StopSound(Sgameover)
-file_delete("temp");
-audio_all_stop();
+file_delete("temp")
+audio_all_stop()
 filePlaying=-100
 with player instance_destroy()
 room_goto(rInit)

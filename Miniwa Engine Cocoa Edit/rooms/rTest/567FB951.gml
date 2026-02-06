@@ -1,4 +1,4 @@
 //gm82 fields begin
-trg=2
-hsp=4
+trg=5
+hsp=-4
 //gm82 fields end

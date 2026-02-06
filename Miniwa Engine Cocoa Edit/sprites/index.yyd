@@ -408,10 +408,10 @@ sprBoss1
 
 sprBomb
 sprHealthbar
-sprTriggerFeildV
-sprTriggerFieldSq
-sprTriggerFieldH
-sprLaunch
+
+
+sprTriggerStopper
+
 sprTrigger
 sprMChoose
 sprMChoose2

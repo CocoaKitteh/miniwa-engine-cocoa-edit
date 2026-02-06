@@ -42,7 +42,7 @@ if(keyboard_check_pressed(global.button1) == true){
   }
   global.death[select] = 0;
   global.time[select] = 0;
-  room_goto(rTest)
+  room_goto(global.start_room)
   }
 }else if(keyboard_check_pressed(global.button5) == true){
   audio_play(sndJump);

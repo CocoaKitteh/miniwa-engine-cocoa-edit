@@ -1,9 +1,10 @@
-#define Step_0
+#define Other_4
 /*"/*'/**//* YYD ACTION
 lib_id=1
 action_id=603
 applies_to=self
 */
+if !instance_exists(world) instance_create(0,0,world)
 //ƒL[ƒ{[ƒh‚Ìƒ{ƒ^ƒ“”z’u‚ÉŠÖ‚·‚é‰ŠúÝ’è
 //"controls"ƒtƒ@ƒCƒ‹‚ª‘¶Ý‚µ‚Ä‚¢‚ê‚Îƒ[ƒh‚µA–³‚¯‚ê‚ÎƒfƒtƒHƒ‹ƒg‚ðÝ’è‚µ‚ÄƒZ[ƒu
 if (file_exists("controls")) {
